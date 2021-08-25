@@ -730,7 +730,19 @@ section {
   color: #151515;
 }
 
-/*--------------------------------------------------------------
+@media (min-width: 1024px) {
+  .cta {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 424px) {
+  .cta {
+     background-attachment: fixed;
+  }
+}
+
+/*------------------------------------------------------------
 # Cta1
 --------------------------------------------------------------*/
 .cta1 {
@@ -767,6 +779,18 @@ section {
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
+}
+
+@media (min-width: 1024px) {
+  .cta1 {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 424px) {
+  .cta1 {
+     background-attachment: fixed;
+  }
 }
 
 /*--------------------------------------------------------------
